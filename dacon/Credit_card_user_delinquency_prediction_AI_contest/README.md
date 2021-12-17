@@ -12,7 +12,7 @@
 - 순위 및 비율 : 31(3%)
 
 ### 결과화면
-![credit_leaderboard](./img/credit_leaderboard.PNG)
+![credit_leaderboard](./img/credit_leaderboard_rank_31.PNG)
 
 
 ## 사용한 방법 & 알고리즘
