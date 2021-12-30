@@ -45,6 +45,6 @@
 -----------
 
 ### 참고자료
-
+[XGBoost](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)(https://www.sciencedirect.com/science/article/pii/S2090447921000125)
 
 
