@@ -1,8 +1,6 @@
 ## The Winton Stock Market Challenge
 
 
-------------
-
 ### 결과 요약
 
 * 도전기관 : 시큐레이어
