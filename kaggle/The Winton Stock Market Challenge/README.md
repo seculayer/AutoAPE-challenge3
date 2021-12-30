@@ -3,11 +3,7 @@
 
 ------------
 
-### 결과
-
-----------------
-
-### 요약정보
+### 결과 요약
 
 * 도전기관 : 시큐레이어
 * 도전자 : 허인
@@ -16,19 +12,24 @@
 * 총 참여 팀 수 : 829
 * 순위 및 비율 :  765(92%)
 
-### 결과화면
+### 리더보드 이미지
 
 ![결과](screenshot/score.png)
 ![결과](screenshot/leaderboard.png)
 
 ----------
 
-### 사용한 방법 & 알고리즘
+### 알고리즘 & 문제 해결 방법
 
-* d
-  * d
-  * d
-
+* XGBoost (Extreme Gradient Boosting)
+  * Boosting 기법을 이용하여 구현한 알고리즘 - 병렬 학습이 지원되도록 구현한 라이브러리 (병렬: 수행시간이 짧음)
+    - Boosting: 성능이 높지 않는 여러 모델을 조합하여 사용하는 앙상블 기법
+                (성능이 낮은 예측 모형들의 학습 에러에 가중치를 두고, 순차적으로 다음 학습 모델엘 반영해 강한 예측모형 생성)
+  * Regression, Classification 문제를 모두 지원하는 등 매우 효율적이며 유연
+  * overfit regularization - early stopping 제공 / 결측치 내부적으로 처리
+    - train 횟수(epoch의 수)가 증가함에 따라 train data에 대한 error는 감소하지만, overfit이 일어나게 됨 -> 모델의 일반환 성능은 감소
+    - early stopping: 이전 epoch과 비교하여 오차 증가할 경우 학습 중단
+  
 * d
   * d
 
