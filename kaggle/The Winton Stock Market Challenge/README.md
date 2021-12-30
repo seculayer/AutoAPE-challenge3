@@ -18,9 +18,7 @@
 
 ### 결과화면
 
-![결과](output/.PNG)
-
-![결과](output/leaderboard.PNG)
+![결과](screenshot/ledaerboard.PNG)
 
 ----------
 
