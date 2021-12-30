@@ -40,17 +40,10 @@
 
 -----------
 
-### 코드
-
-[The Winton Stock Market Challenge.ipynb']
-(https://github.com/gjdls01/AutoAPE-challenge3/blob/main/kaggle/The%20Winton%20Stock%20Market%20Challenge/The%20Winton%20Stock%20Market%20Challenge.ipynb)
-
-
-
------------
-
 ### 참고자료
-[XGBoost1](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)
-[XGBoost2](https://www.sciencedirect.com/science/article/pii/S2090447921000125)
+
+- [XGBoost]
+  - [자료1](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)
+  - [자료2](https://www.sciencedirect.com/science/article/pii/S2090447921000125)
 
 
