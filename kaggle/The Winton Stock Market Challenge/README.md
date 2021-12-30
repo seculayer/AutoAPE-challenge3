@@ -18,8 +18,9 @@
 
 ### 결과화면
 
+![결과](screenshot/score.png)
 ![결과](screenshot/leaderboard.png)
-<img src="screenshot/leaderboard.png
+
 ----------
 
 ### 사용한 방법 & 알고리즘
