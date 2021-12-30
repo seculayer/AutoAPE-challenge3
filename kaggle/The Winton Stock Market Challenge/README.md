@@ -22,7 +22,7 @@
 ### 알고리즘 & 문제 해결 방법
 
 1. 알고리즘: XGBoost (Extreme Gradient Boosting)
-  <img src="screenshot/xgboost.jpg">
+  ![xgboost](screenshot/xgboost.jpg)
   * Boosting 기법을 이용하여 구현한 알고리즘 - 병렬 학습이 지원되도록 구현한 라이브러리 (병렬: 수행시간이 짧음)
     - Boosting: 성능이 높지 않는 여러 모델을 조합하여 사용하는 앙상블 기법
                 (성능이 낮은 예측 모형들의 학습 에러에 가중치를 두고, 순차적으로 다음 학습 모델엘 반영해 강한 예측모형 생성)
