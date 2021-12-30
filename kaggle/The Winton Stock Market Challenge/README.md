@@ -42,7 +42,7 @@
 
 ### 코드
 
-[The Winton Stock Market Challenge.ipynb'] 
+[The Winton Stock Market Challenge.ipynb']
 (https://github.com/gjdls01/AutoAPE-challenge3/blob/main/kaggle/The%20Winton%20Stock%20Market%20Challenge/The%20Winton%20Stock%20Market%20Challenge.ipynb)
 
 
