@@ -20,7 +20,7 @@
 ----------
 
 ### 알고리즘 & 문제 해결 방법
-<br>
+  <br>
 1. 알고리즘: XGBoost (Extreme Gradient Boosting)
   ![xgboost](screenshot/xgboost.jpg)
   * Boosting 기법을 이용하여 구현한 알고리즘 - 병렬 학습이 지원되도록 구현한 라이브러리 (병렬: 수행시간이 짧음)
@@ -30,8 +30,8 @@
   * overfit regularization - early stopping 제공 / 결측치 내부적으로 처리
     - train 횟수(epoch의 수)가 증가함에 따라 train data에 대한 error는 감소하지만, overfit이 일어나게 됨 -> 모델의 일반화 성능은 감소
     - early stopping: 이전 epoch과 비교하여 오차 증가할 경우 학습 중단
-<br>
-<br> 
+  <br>
+  <br> 
 2. 문제 해결 방법
   * Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
     <img src="screenshot/features.png">
