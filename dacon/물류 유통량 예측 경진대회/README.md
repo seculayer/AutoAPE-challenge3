@@ -17,7 +17,7 @@
 
 ### 리더보드
 
-![결과](screenshot/scoreGoods.PNG)
+![결과](screenshot/scoreGoods.png)
 
 ----------
 
@@ -36,6 +36,10 @@
   
  
  2. 문제 해결 방법
+ * data load
+ * data 전처리 -> LabelEncoder 활용하여 categorical data인 column'물품_카테고리'를 numerical data로 변환
+ * modeling (모델 정의 및 모델 학습) -> LightGBM으로 모델 정의 및 train data에 대하여 모델 학습
+ * test data 예측 -> LightGBM으로 test data predict
 
 -----------
 
