@@ -21,7 +21,7 @@
 
 ### 알고리즘 & 문제 해결 방법
 
-1. 알고리즘: XGBoost (Extreme Gradient Boosting)
+##### 알고리즘: XGBoost (Extreme Gradient Boosting)
   ![xgboost](screenshot/xgboost.jpg)
   * Boosting 기법을 이용하여 구현한 알고리즘 - 병렬 학습이 지원되도록 구현한 라이브러리 (병렬: 수행시간이 짧음)
     - Boosting: 성능이 높지 않는 여러 모델을 조합하여 사용하는 앙상블 기법
@@ -32,7 +32,7 @@
     - early stopping: 이전 epoch과 비교하여 오차 증가할 경우 학습 중단
   <br>
   <br> 
-2. 문제 해결 방법<br>
+##### 문제 해결 방법<br>
   * Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
     - Numpy ndarray -> DMatrix
     <img src="screenshot/features.png">
