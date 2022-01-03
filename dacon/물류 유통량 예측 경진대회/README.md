@@ -31,8 +31,7 @@
   * 수직 확장(leaf-wise). 반대는 수평 확장이라고 칭한다(level-wise)
   * 과적합에 민감하며, 작은 크기의 데이터는 과적합될 확률이 크기에 대용량의 데이터에 활용
   * parameter: max_depth/ min_data_in_leaf / feature_fraction/ bagging_fraction / early_stopping_round / lambda / min_gain_to_split / max_cat_group
-
-<img src="screanshot/model.png" alt="model" style="zoom: 67%;" />
+  <img src="screenshot/LGBM.jpg" alt="model" style="zoom: 67%;" />
 
 -----------
 
