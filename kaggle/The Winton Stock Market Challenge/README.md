@@ -33,15 +33,15 @@
 
 #### 문제 해결 방법
   1. Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
-    - Numpy ndarray -> DMatrix
-    <img src="screenshot/features.png">
-    - 가장 중요한 feature f6는 Feature_7<br>
+     - Numpy ndarray -> DMatrix
+       <img src="screenshot/features.png">
+     - 가장 중요한 feature f6는 Feature_7<br>
   2. 모델 Train (XGBoost Regressor)
-    - Psuedo-Huber loss function: square-loss function보다 이상치에 덜 민감하다
-    - parameter tuning을 위한 grid search (함수 정의)
-    - final parameter을 찾은 후, test 데이터에 대하여 모델 성능 평가
-     <img src="screenshot/Comparison.png">
-    - all-zero predicition과 비교한 결과, 모델 성능이 더 뛰어남을 확인 -> 이후 전체 데이터에 대하여 모델 train, 예측
+     - Psuedo-Huber loss function: square-loss function보다 이상치에 덜 민감하다
+     - parameter tuning을 위한 grid search (함수 정의)
+     - final parameter을 찾은 후, test 데이터에 대하여 모델 성능 평가
+       <img src="screenshot/Comparison.png">
+     - all-zero predicition과 비교한 결과, 모델 성능이 더 뛰어남을 확인 -> 이후 전체 데이터에 대하여 모델 train, 예측
 
 
 
