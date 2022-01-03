@@ -33,8 +33,12 @@
   <br>
   <br> 
 2. 문제 해결 방법
-  * Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
+   * Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
+     - Numpy ndarray -> DMatrix
     <img src="screenshot/features.png">
+    - 가장 중요한 feature f6는 Feature_7
+   * 모델 Train (XGBoost Regressor)
+     - Psuedo-Huber loss function: square-loss function보다 이상치에 덜 민감하다
 
 
 
@@ -45,5 +49,6 @@
 - [XGBoost]
   - [자료1](https://xgboost.readthedocs.io/en/stable/tutorials/model.html)
   - [자료2](https://www.sciencedirect.com/science/article/pii/S2090447921000125)
-
+- [Huber loss function]
+  - [자료1](https://alexisalulema.com/2017/12/07/loss-functions-part-1/)
 
