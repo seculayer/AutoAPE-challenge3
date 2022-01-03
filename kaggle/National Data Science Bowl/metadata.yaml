@@ -1,0 +1,12 @@
+version: 1
+id: National Data Science Bowl
+score: 1.80910
+teams: 1049
+rank: 461
+date: 2021-01-03
+organization: SecuLayer
+team:
+  name: User1
+  members:
+    - id: User1
+      name: 허인
