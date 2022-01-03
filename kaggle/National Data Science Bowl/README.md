@@ -14,8 +14,8 @@
 
 ### 리더보드 이미지
 
-![결과](screenshot/score.png)
-![결과](screenshot/leaderboard.png)
+![결과](screenshot/scoreBowl.png)
+![결과](screenshot/boardBowl.png)
 
 ----------
 
