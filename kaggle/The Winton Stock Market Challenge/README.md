@@ -32,12 +32,12 @@
     - early stopping: 이전 epoch과 비교하여 오차 증가할 경우 학습 중단
   <br>
   <br> 
-2. 문제 해결 방법
-  <br>* Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
+2. 문제 해결 방법<br>
+  * Feature select (XGBoost 이용): feature 개수가 많을 때 XGBoost를 활용하면 overfit을 초래하지 않게 됨
     - Numpy ndarray -> DMatrix
     <img src="screenshot/features.png">
-    - 가장 중요한 feature f6는 Feature_7
-  <br>* 모델 Train (XGBoost Regressor)
+    - 가장 중요한 feature f6는 Feature_7<br>
+  * 모델 Train (XGBoost Regressor)
     - Psuedo-Huber loss function: square-loss function보다 이상치에 덜 민감하다
     - parameter tuning을 위한 grid search (함수 정의)
     - final parameter을 찾은 후, test 데이터에 대하여 모델 성능 평가
