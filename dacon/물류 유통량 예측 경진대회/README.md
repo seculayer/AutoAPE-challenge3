@@ -51,8 +51,5 @@
 
 ### 참고자료
 
-[LabelEncoder]
-- [자료1](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
-- [자료2](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd)
-[LightGBM] 
-- [자료1](https://lightgbm.readthedocs.io/en/latest/)
+[LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
+[LightGBM](https://lightgbm.readthedocs.io/en/latest/)
