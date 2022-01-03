@@ -13,7 +13,7 @@
 * 최종스코어 : 0.77437
 * 제출일자 : 2022-01-03
 * 총 참여 팀 수 : 828
-* 순위 및 비율 :  256(31%)
+* 순위 및 비율 :  245(29%)
 
 ### 리더보드
 
@@ -24,9 +24,6 @@
 ### 알고리즘 & 문제 해결 방법
 
 1. 알고리즘
-* LabelEncoder
-  * categorical data -> numerical data 
-
 * LightGBM Regressor
   * Tree 기반 학습 알고리즘 (Gradient Boosting Framework)
   * 수직 확장(leaf-wise). 반대는 수평 확장이라고 칭한다(level-wise)
@@ -37,19 +34,18 @@
  
  2. 문제 해결 방법
  * data 전처리 -> 어간 추출(조사, 어미, 구두점 제거)
- * train / valid dataset split 
- * modeling (모델 정의 및 모델 학습) -> LightGBM으로 모델 정의 및 train data에 대하여 모델 학습
+ * train / valid dataset split (80:20)
+ * modeling (모델 정의 및 모델 학습) -> LightGBM으로 모델 정의 및 train data에 대하여 모델 학습, 평가
  * test data 예측 -> LightGBM으로 test data predict
 
 -----------
 
 ### 코드
 
-['./물류 유통량 예측 경진대회.ipynb](https://github.com/gjdls01/AutoAPE-challenge3/blob/main/dacon/%EB%AC%BC%EB%A5%98%20%EC%9C%A0%ED%86%B5%EB%9F%89%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/%EB%AC%BC%EB%A5%98%20%EC%9C%A0%ED%86%B5%EB%9F%89%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C.ipynb)
+['./뉴스 토픽 분류 AI 경진대회.ipynb](https://github.com/gjdls01/AutoAPE-challenge3/blob/main/dacon/%EB%AC%BC%EB%A5%98%20%EC%9C%A0%ED%86%B5%EB%9F%89%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/%EB%AC%BC%EB%A5%98%20%EC%9C%A0%ED%86%B5%EB%9F%89%20%EC%98%88%EC%B8%A1%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C.ipynb)
 
 -----------
 
 ### 참고자료
 
-[LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
 [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
