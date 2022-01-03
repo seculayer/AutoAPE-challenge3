@@ -32,7 +32,7 @@
     - Bagging Features: Feature 선택 시 feature의 부분집합 활용. 일반적으로 M개의 feature가 있다면, 루트 M개의 feature를 선택. 이후 information gain이 높은 feature 선택
     - Classify: 여러 트리 형성 후 도출된 결과 -> 빈도수가 가장 높은 예측값을 최종 결론으로 선택.<br>
       ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류
-  
+  <br><br>
  
  2. 문제 해결 방법
  * data 전처리: column '요일'을 숫자로 mapping -> categorical data만 feature로 선택
