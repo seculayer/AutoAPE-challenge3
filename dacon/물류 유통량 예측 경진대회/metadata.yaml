@@ -1,0 +1,12 @@
+version: 1
+id: 물류 유통량 예측 경진대회
+score: 7.83695
+teams: 469
+rank: 241
+date: 2022-01-03
+organization: SecuLayer
+team:
+  name: User1
+  members:
+    - id: User1
+      name: 허인
