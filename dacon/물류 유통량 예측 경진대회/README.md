@@ -17,7 +17,7 @@
 
 ### 리더보드
 
-![결과](screanshot/scoreGoods.PNG)
+![결과](screenshot/scoreGoods.PNG)
 
 ----------
 
