@@ -35,7 +35,7 @@
   <br><br>
  
  2. 문제 해결 방법
- * data 전처리: column '요일'을 숫자로 mapping -> categorical data만 feature로 선택
+ * data 전처리: column '요일'을 숫자로 mapping -> categorical data만 feature로 선택 (중요 정보가 아닌 feature는 제거)
  * modeling (모델 정의 및 모델 학습) -> RandomForestRegressor으로 모델 정의 및 train data에 대하여 모델 학습
  * test data 예측 -> RandomForest Regressor으로 test data predict
 
