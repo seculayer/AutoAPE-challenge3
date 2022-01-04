@@ -1,4 +1,4 @@
-## 구내식당 식수 인원 예측 AI 경진대회
+## 신용카드 사용자 연체 예측 AI 경진대회
 
 ------------
 
@@ -10,10 +10,10 @@
 
 * 도전기관 : 시큐레이어
 * 도전자 : 허인
-* 최종스코어 : 119.32466
-* 제출일자 : 2022-01-03
-* 총 참여 팀 수 : 1573
-* 순위 및 비율 :  496(31%)
+* 최종스코어 : 0.88113
+* 제출일자 : 2022-01-04
+* 총 참여 팀 수 : 2338
+* 순위 및 비율 :  770(33%)
 
 ### 리더보드
 
@@ -46,9 +46,11 @@
   <br><br>
  
  2. 문제 해결 방법
- * data 전처리: column '요일'을 숫자로 mapping -> categorical data만 feature로 선택
- * modeling (모델 정의 및 모델 학습) -> RandomForestRegressor으로 모델 정의 및 train data에 대하여 모델 학습
- * test data 예측 -> RandomForest Regressor으로 test data predict
+ * data 전처리
+   * labelEncoder: categorical data -> numerical data
+   * 연속형 변수(continuous variable) 구간화
+ * modeling (모델 정의 및 모델 학습) -> RandomForestClassifier로 모델 정의 및 train data에 대하여 모델 학습
+ * test data 예측 ->RandomForestClassifier로 test data predict
 
 -----------
 
