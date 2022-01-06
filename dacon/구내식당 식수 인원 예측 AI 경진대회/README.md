@@ -34,7 +34,7 @@
       ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류
     3) parameters:
         - n_estimator(트리의 수): 트리의 수가 많다는 것은 경우의 수가 많다는 것 -> 트리의 수가 클수록 좋음
-        - max_features = 나누는 수 
+        - max_features(나누는 수) 
         - 작은 max_features와 큰 n_estimator는 과적합(overfit) 감소시킨다는 장점이 있음 
   <br><br>
  
