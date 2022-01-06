@@ -47,7 +47,7 @@
      - feature_fraction
        * 값이 1보다 작을 경우, 그 비율만큼 feature를 랜덤하게 추출하여 학습<br>
          ex. feature_fraction = 0.5일 경우, feature의 50%만 랜덤하게 추출 -> 과적합 방지, 속도 향상
-     - min_data_in_leaf / feature_fraction / bagging_fraction / lambda / min_gain_to_split / max_cat_group<br><br>
+     - 그외: min_data_in_leaf / feature_fraction / bagging_fraction / lambda / min_gain_to_split / max_cat_group<br><br>
   <img src="screenshot/lgbm.jpg" alt="model" style="zoom: 40%;" />
   
  
