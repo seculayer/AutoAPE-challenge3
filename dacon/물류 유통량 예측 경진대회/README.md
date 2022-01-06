@@ -27,7 +27,8 @@
 * CatBoost
   * Decision Tree(결정트리)와 GBM(Gradient Boosting Machine)에 기반하여 만들어진 알고리즘
   * GBM의 문제(과적합, overfitting) 해결
-  * categorical data에 대하여 잘 작동
+  * categorical data에 대하여 잘 작동 (categorical data에 대하여 자동 전처리 진행) -> 데이터 전처리 및 모델 튜닝 간편
+  * 타 알고리즘에 비해 우수한 성능
   <img src="screenshot/LGBM.jpg" alt="model" style="zoom: 67%;" />
   
  
