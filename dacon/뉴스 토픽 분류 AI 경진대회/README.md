@@ -33,6 +33,12 @@
      - 수직 확장(leaf-wise). 반대는 수평 확장이라고 칭한다(level-wise)
      - 과적합에 민감하며, 작은 크기의 데이터는 과적합될 확률이 크기에 대용량의 데이터에 활용
   3) parameter (주요 parameter 및 그외 파라미터)
+     - objective
+       * regression -> 회귀
+       * binary, multiclass -> 분류
+     - metric: MAE, RMSE, binary_logloss, AUC, cross_entropy etc
+     - learning rate: 일반적으로 0.01 ~ 0.1로 설정
+     - n_estimators: 학습횟수. 값이 너무 크면 과적합(overfit)할 가능성이 있다 (default: 100)
      - max_depth : 결정 트리(decision tree)의 max_depth과 같은 개념. 수직 확장하기에 max_depth가 매우 크다 (default값은 -1 -> 0보다 작은 것은 깊이 제한이 없다는 뜻)
      - min_child_samples : 결정트리의 min_samples_leaf와 같은 개념 (default: 20)
      - num_leaves : 하나의 트리가 가질 수 있는 최대 leaf 개수 (default: 31)
