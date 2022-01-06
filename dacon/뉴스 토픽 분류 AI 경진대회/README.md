@@ -32,13 +32,13 @@
      - Tree 기반 학습 알고리즘 (Gradient Boosting Framework)
      - 수직 확장(leaf-wise). 반대는 수평 확장이라고 칭한다(level-wise)
      - 과적합에 민감하며, 작은 크기의 데이터는 과적합될 확률이 크기에 대용량의 데이터에 활용
-  3) parameter
-     - max_depth/ min_data_in_leaf / feature_fraction/ bagging_fraction / early_stopping_round / lambda / min_gain_to_split / max_cat_group
-     - objective : 회귀(regression), 분류(binary, multiclass)
+  3) parameter (주요 parameter 및 그외 파라미터)
      - max_depth : 결정 트리(decision tree)의 max_depth과 같은 개념. 수직 확장하기에 max_depth가 매우 크다 (default값은 -1 -> 0보다 작은 것은 깊이 제한이 없다는 뜻)
      - min_child_samples : 결정트리의 min_samples_leaf와 같은 개념 (default: 20)
      - num_leaves : 하나의 트리가 가질 수 있는 최대 leaf 개수 (default: 31)
-     - early_stopping_rounds : 학습 조기종료를 위한 early stopping interval 값<br><br>
+     - early_stopping_rounds : 학습 조기종료를 위한 early stopping interval 값
+       * early_stopping_rounds = 100, n_estimators = 1000 이라고 가정하자. 학습이 1000회에 도달하지 않더라도 예측 오류가 100번 동안 줄어들지 않으면 중단 -> 시간 감소
+     - min_data_in_leaf / feature_fraction / bagging_fraction / lambda / min_gain_to_split / max_cat_group<br><br>
   <img src="screenshot/lgbm.jpg" alt="model" style="zoom: 40%;" />
   
  
