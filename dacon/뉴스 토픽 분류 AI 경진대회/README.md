@@ -33,7 +33,7 @@
   * parameter
     - max_depth/ min_data_in_leaf / feature_fraction/ bagging_fraction / early_stopping_round / lambda / min_gain_to_split / max_cat_group
     - objective: 회귀(regression), 분류(binary, multiclass)
-  <img src="screenshot/lgbm.png" alt="model" style="zoom: 40%;" />
+  <img src="screenshot/lgbm.jpg" alt="model" style="zoom: 40%;" />
   
  
  2. 문제 해결 방법
