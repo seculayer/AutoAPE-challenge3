@@ -10,10 +10,10 @@
 
 * 도전기관 : 시큐레이어
 * 도전자 : 허인
-* 최종스코어 : 7.83695
-* 제출일자 : 2022-01-03
-* 총 참여 팀 수 : 469
-* 순위 및 비율 :  241(51%)
+* 최종스코어 : 5.70357
+* 제출일자 : 2022-01-06
+* 총 참여 팀 수 : 488
+* 순위 및 비율 :  150(31%)
 
 ### 리더보드
 
@@ -23,23 +23,19 @@
 
 ### 알고리즘 & 문제 해결 방법
 
-1. 알고리즘
-* LabelEncoder
-  * categorical data -> numerical data 
-
-* LightGBM Regressor
-  * Tree 기반 학습 알고리즘 (Gradient Boosting Framework)
-  * 수직 확장(leaf-wise). 반대는 수평 확장이라고 칭한다(level-wise)
-  * 과적합에 민감하며, 작은 크기의 데이터는 과적합될 확률이 크기에 대용량의 데이터에 활용
-  * parameter: max_depth/ min_data_in_leaf / feature_fraction/ bagging_fraction / early_stopping_round / lambda / min_gain_to_split / max_cat_group
+1. 알고리즘 및 주요개념
+* CatBoost
+  * Decision Tree(결정트리)와 GBM(Gradient Boosting Machine)에 기반하여 만들어진 알고리즘
+  * GBM의 문제(과적합, overfitting) 해결
+  * categorical data에 대하여 잘 작동
   <img src="screenshot/LGBM.jpg" alt="model" style="zoom: 67%;" />
   
  
  2. 문제 해결 방법
  * data load
  * data 전처리 -> LabelEncoder 활용하여 categorical data인 column'물품_카테고리'를 numerical data로 변환
- * modeling (모델 정의 및 모델 학습) -> LightGBM으로 모델 정의 및 train data에 대하여 모델 학습
- * test data 예측 -> LightGBM으로 test data predict
+ * modeling (모델 정의 및 모델 학습) -> catboost Regressor로 모델 정의 및 train data에 대하여 모델 학습
+ * test data 예측 -> catboost Regressor으로 test data predict
 
 -----------
 
@@ -51,5 +47,4 @@
 
 ### 참고자료
 
-[LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
-[LightGBM](https://lightgbm.readthedocs.io/en/latest/)
+[LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html) 
