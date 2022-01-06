@@ -33,7 +33,8 @@
   
  
  2. 문제 해결 방법
- * data 전처리 -> 어간 추출(조사, 어미, 구두점 제거)
+ * data 전처리
+   * target('title')에서 불필요한 정보(조사, 어미, 구두점) 제거 -> 어간 추출
  * train / valid dataset split (80:20)
  * modeling (모델 정의 및 모델 학습) -> LightGBM으로 모델 정의 및 train data에 대하여 모델 학습, 평가
  * test data 예측 -> LightGBM으로 test data predict
