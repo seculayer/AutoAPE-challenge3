@@ -38,7 +38,7 @@
      - max_depth : 결정 트리(decision tree)의 max_depth과 같은 개념. 수직 확장하기에 max_depth가 매우 크다 (default값은 -1 -> 0보다 작은 것은 깊이 제한이 없다는 뜻)
      - min_child_samples : 결정트리의 min_samples_leaf와 같은 개념 (default: 20)
      - num_leaves : 하나의 트리가 가질 수 있는 최대 leaf 개수 (default: 31)
-     - early_stopping_rounds : 학습 조기종료를 위한 early stopping interval 값
+     - early_stopping_rounds : 학습 조기종료를 위한 early stopping interval 값<br>
   <img src="screenshot/lgbm.jpg" alt="model" style="zoom: 40%;" />
   
  
