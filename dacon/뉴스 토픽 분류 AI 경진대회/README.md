@@ -43,7 +43,10 @@
      - min_child_samples : 결정트리의 min_samples_leaf와 같은 개념 (default: 20)
      - num_leaves : 하나의 트리가 가질 수 있는 최대 leaf 개수 (default: 31)
      - early_stopping_rounds : 학습 조기종료를 위한 early stopping interval 값
-       * early_stopping_rounds = 100, n_estimators = 1000 이라고 가정하자. 학습이 1000회에 도달하지 않더라도 예측 오류가 100번 동안 줄어들지 않으면 중단 -> 시간 감소
+       * early_stopping_rounds = 100, n_estimators = 1000 이라고 가정하자. 학습이 1000회에 도달하지 않더라도 예측 오류가 100번 동안 줄어들지 않으면(validation dataset을 학습시켰을 때 그 성능이 더이상 향상하지 않으면) 중단 -> 시간 감소
+     - feature_fraction
+       * 값이 1보다 작을 경우, 그 비율만큼 feature를 랜덤하게 추출하여 학습<br>
+         ex. feature_fraction = 0.5일 경우, feature의 50%만 랜덤하게 추출 -> 과적합 방지, 속도 향상
      - min_data_in_leaf / feature_fraction / bagging_fraction / lambda / min_gain_to_split / max_cat_group<br><br>
   <img src="screenshot/lgbm.jpg" alt="model" style="zoom: 40%;" />
   
