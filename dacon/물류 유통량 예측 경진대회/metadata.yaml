@@ -1,9 +1,9 @@
 version: 1
 id: 물류 유통량 예측 경진대회
 score: 5.70357
-teams: 488
+teams: 520
 rank: 150
-date: 2022-01-06
+date: 2022-01-23
 organization: SecuLayer
 team:
   name: User1
