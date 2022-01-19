@@ -30,7 +30,7 @@
     - 학습의 효율성을 위해 RTD 사용<br>
       - RTD: 일부 토큰을 Generator에서 얻은 가짜 토큰으로 치환 - Discriminator로 들어온 토큰이 실제 토큰인지, Generator을 통해 생성된 가짜 토큰인지 맞힘<br>
       - 모든 토큰에 대해 이진 분류를 해야 하기에 모든 토큰에 대하여 loss를 계산해야 함 (모든 토큰에 대해 학습하기에 효율, 효과적)
-      ![결과](screenshot/electra.png) 
+        ![결과](screenshot/electra.png) 
   <br><br>
  
  2. 문제 해결 방법
