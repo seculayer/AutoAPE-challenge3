@@ -29,6 +29,8 @@
   * 한국어 Transformer 계열 모델과의 차이
     - Transformer 계열 모델: 한국어 위키, 뉴스 기사, 책 등 정제된 데이터를 기반으로 학습한 모델
     - KcELECTRA: 네이버 뉴스에서 댓글, 대댓글을 수집하여 학습한 모델 (정제되지 않은 데이터, 구어체 특징의 신조어, 오탈자 등 공식적 글쓰기에서 나타나지 않는 표현)
+  * KcBERT 대비 데이터셋 증가, vocab 확장
+    ![결과](screenshot/electra2.png) 
   * ELECTRA
     - 학습의 효율성을 위해 RTD 사용<br>
       - RTD: 일부 토큰을 Generator에서 얻은 가짜 토큰으로 치환 - Discriminator로 들어온 토큰이 실제 토큰인지, Generator을 통해 생성된 가짜 토큰인지 맞힘<br>
