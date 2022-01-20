@@ -38,7 +38,7 @@
  * Pytorch Lightning 활용해서 모델 만들기
  * 학습
  * 예측
- ![결과](screenshot/.png)
+ ![결과](screenshot/resultMovie.png)
  
 -----------
 
