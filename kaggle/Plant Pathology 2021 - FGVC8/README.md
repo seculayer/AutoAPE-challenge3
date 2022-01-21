@@ -22,8 +22,11 @@
 ### DATA
 
 train_images 폴더 안에 18632장의 이미지가 있다.
+
 train.csv에 각 train image의 label이 있다. 한 이미지에 여러가지 질병을 가진 경우도 존재한다. 따라서 multi label classification으로 해결할 수 있다.
+
 Label은 총 6가지이다. (complex, frog_eye_leaf_spot, healthy, powdery_mildew, rust, scab)
+
 ![train_image_example](./img/train_image_example.png)
 
 test_images 폴더 안에 총 3개의 샘플이미지가 있다. (실제 5000장의 test image가 있고, 제출하면 결과를 알 수 있다.)
