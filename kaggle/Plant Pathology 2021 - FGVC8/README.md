@@ -35,7 +35,9 @@ test_images 폴더 안에 총 3개의 샘플이미지가 있다. (실제 5000장
 - Test Time Augmentation(TTA) : augmentation 진행한 이미지와 원본 이미지 둘 다 inference 후 평균한 결과 성능 향상
 
 ### Model
-- EfficientNetB7, NasnetLarge 사용하여 train & 앙상블 (single model보다 성능 향상)
+- EfficientNetB7
+- NasnetLarge
+- ensemble
 
 
 
