@@ -1,1 +1,12 @@
-
+version: 1
+id: 잡케어 추천 알고리즘 경진대회
+score: 0.64263
+teams: 1264
+rank: 362
+date: 2022-01-24
+organization: SecuLayer
+team:
+  name: User1
+  members:
+    - id: User1
+      name: 허인
