@@ -24,18 +24,17 @@
 ### 알고리즘 & 문제 해결 방법
 
 1. 알고리즘
-* Random Forest
-  * ensemble (지도학습) 머신러닝 모델: 여러 개의 decision tree를 결합하는 것이 더 좋은 결과, 성능을 낸다는 아이디어에서 착안
-    <img src="screenshot/ensemble.png" alt="model" style="zoom: 67%;" />
-    1) Bagging (Bootstrap Aggregating): 여러 개의 트리를 생성하는데, 각 트리 생성 시 training set에 대하여 임의로 n개의 데이터를 선택. 이때 데이터 중복 허용(with replacement)
+* ensemble (지도학습) 머신러닝 모델: 여러 개의 decision tree를 결합하는 것이 더 좋은 결과, 성능을 낸다는 아이디어에서 착안
+  <img src="screenshot/ensemble.png" alt="model" style="zoom: 67%;" />
+  1) Bagging (Bootstrap Aggregating): 여러 개의 트리를 생성하는데, 각 트리 생성 시 training set에 대하여 임의로 n개의 데이터를 선택. 이때 데이터 중복 허용(with replacement)
     ![결과](screenshot/RandomForest2.png)
-       - Bagging Features: Feature 선택 시 feature의 부분집합 활용. 일반적으로 M개의 feature가 있다면, 루트 M개의 feature를 선택. 이후 information gain이 높은 feature 선택 
-    2) Classify: 여러 트리 형성 후 도출된 결과 -> 빈도수가 가장 높은 예측값을 최종 결론으로 선택.<br>
-      ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류
-    3) parameters:
-        - n_estimator(트리의 수): 트리의 수가 많다는 것은 경우의 수가 많다는 것 -> 트리의 수가 클수록 좋음
-        - max_features(나누는 수) 
-        - 작은 max_features와 큰 n_estimator는 과적합(overfit) 감소시킨다는 장점이 있음 
+     - Bagging Features: Feature 선택 시 feature의 부분집합 활용. 일반적으로 M개의 feature가 있다면, 루트 M개의 feature를 선택. 이후 information gain이 높은 feature 선택 
+  2) Classify: 여러 트리 형성 후 도출된 결과 -> 빈도수가 가장 높은 예측값을 최종 결론으로 선택.<br>
+     ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류
+  3) parameters:
+     - n_estimator(트리의 수): 트리의 수가 많다는 것은 경우의 수가 많다는 것 -> 트리의 수가 클수록 좋음
+     - max_features(나누는 수) 
+     - 작은 max_features와 큰 n_estimator는 과적합(overfit) 감소시킨다는 장점이 있음 
   <br><br>
  
  2. 문제 해결 방법
