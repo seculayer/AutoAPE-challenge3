@@ -44,6 +44,6 @@ test_images 폴더 안에 총 3개의 샘플이미지가 있다. (실제 5000장
 ## 코드
 ['./Plant Pathology 2021_train.ipynb'](https://github.com/ori5r2/AutoAPE-challenge3/blob/main/kaggle/Plant%20Pathology%202021%20-%20FGVC8/Plant%20Pathology%202021_inference.ipynb)
 
-['./Plant Pathology 2021_inference.ipynb'](https://github.com/ori5r2/AutoAPE-challenge3/blob/main/kaggle/Plant%20Pathology%202021%20-%20FGVC8/Plant%20Pathology%202021_inference.ipynb)
+['./Plant Pathology 2021_inference.ipynb'](./Plant_Pathology_2021_inference)
 
 ## 참고 자료
