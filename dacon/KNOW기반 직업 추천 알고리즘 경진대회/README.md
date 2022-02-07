@@ -27,7 +27,15 @@
 * ensemble (지도학습) 머신러닝 모델: 여러 개의 decision tree를 결합하는 것이 더 좋은 결과, 성능을 낸다는 아이디어에서 착안
   <img src="screenshot/ensemble.png" alt="model" style="zoom: 67%;" />
   * Classify: 여러 트리 형성 후 도출된 결과 -> 빈도수가 가장 높은 예측값을 최종 결론으로 선택.<br>
-    <br>ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류 
+    ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류
+ * Logistic Regression의 주요 parameters
+   * fit_intercept: 상수 추가 여부 - True, False
+   * random_state: 데이터 섞을 때 사용한는 RANDOM NUMBER SEED 값
+   * solver: 최적화에 사용할 알고리즘 결정
+   * n_jobs: 병렬처리 시 이용할 CPU 코어 수
+ * RandomForest Classifier의 주요 parameters
+   * n
+ * DecisionTree Classifier의 주요 parameters
   <br><br>
  
  2. 문제 해결 방법
@@ -50,4 +58,5 @@
 ### 참고자료
 
 [Voting Classifier](https://www.codingninjas.com/codestudio/library/the-voting-classifier)
+[RandomForest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#:~:text=A%20random%20forest%20classifier.%20A%20random%20forest%20is,to%20improve%20the%20predictive%20accuracy%20and%20control%20over-fitting.)
 
