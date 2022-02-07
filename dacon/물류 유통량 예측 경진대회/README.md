@@ -62,5 +62,5 @@
 ### 참고자료
 
 [catboost]
- - 자료1(https://catboost.ai/)
- - 자료2(https://hanishrohit.medium.com/whats-so-special-about-catboost-335d64d754ae) 
+ - [자료1](https://catboost.ai/)
+ - [자료2](https://hanishrohit.medium.com/whats-so-special-about-catboost-335d64d754ae) 
