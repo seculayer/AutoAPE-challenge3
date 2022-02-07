@@ -60,6 +60,6 @@
 
 ### 참고자료
 
-[Voting Classifier](https://www.codingninjas.com/codestudio/library/the-voting-classifier)
+[Voting Classifier](https://www.codingninjas.com/codestudio/library/the-voting-classifier)<br>
 [RandomForest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#:~:text=A%20random%20forest%20classifier.%20A%20random%20forest%20is,to%20improve%20the%20predictive%20accuracy%20and%20control%20over-fitting.)
 
