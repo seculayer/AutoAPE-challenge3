@@ -13,7 +13,7 @@
 
 ### 결과화면
 
-![leaderboard](./img/leaderboard.png)
+![leaderboard](./img/leaderboard_img.png)
 
 ## 사용한 방법 & 알고리즘
 
@@ -37,7 +37,7 @@ Test 폴더는 BC폴더, LT폴더로 나누어져 있고, 각각의 폴더 안�
 
 ### Model
 - EfficientNetB7 + classifier 추가
-
+![model](./img/model.PNG)
 
 ## 코드
 
