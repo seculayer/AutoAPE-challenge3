@@ -39,12 +39,12 @@
  
  2. 문제 해결 방법
  * data 전처리
-   * 기존의 변수 활용하여 새로운 변수 생성 (식수 인원 예측을 위해, 식사를 하는 인원 데이터 생성)
-   * categorical data(요일)에 대하여 LabelEncoder 적용
-   * 일자 데이터를 연도, 월, 일 데이터로 나누어 저장
- * modeling (모델 정의 및 모델 학습) -> RandomForestRegressor으로 모델 정의 및 train data에 대하여 모델 학습
-   * 유의미한 정보를 담고 있지 않은 컬럼(조식 메뉴, 중식메뉴, 석식메뉴)는 feature select시 제외: 특정 메뉴가 반복되는 등의 패턴을 보이지 않아 무의미함
- * test data 예측 -> RandomForest Regressor으로 test data predict
+   * LabelEncoding
+ * modeling (모델 정의 및 모델 학습): HardVoting Classifier
+   * Logistic Regression
+   * RandomForest Classifier
+   * DecisionTree Classifier
+ * test data 예측 -> model로 test data predict
 
 -----------
 
@@ -56,5 +56,5 @@
 
 ### 참고자료
 
-[RandomForest](https://medium.com/greyatom/a-trip-to-random-forest-5c30d8250d6a)
+[Voting Classifier](https://www.codingninjas.com/codestudio/library/the-voting-classifier)
 
