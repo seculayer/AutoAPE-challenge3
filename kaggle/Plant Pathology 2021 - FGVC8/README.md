@@ -1,4 +1,4 @@
-# APTOS 2019 Blindness Detection 
+# Plant Pathology 2021 - FGVC8
 
 ## 결과
 
