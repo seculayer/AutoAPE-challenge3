@@ -36,6 +36,7 @@ test.csv에는 id, letter, 28x28 사이즈의 이미지가 있다. test 이미�
 ### Model
 - Custom Model : 3개의 block을 사용하여 custom model을 구성하였다. (vgg 참고)
 
+![custom model](./img/model.PNG)
 
 
 ## 코드
