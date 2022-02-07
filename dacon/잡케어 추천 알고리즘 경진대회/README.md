@@ -21,30 +21,17 @@
 
 ----------
 
-### 알고리즘 & 문제 해결 방법
+### 알고리즘
 
-1. 알고리즘
-* XGBoost Classifier
+알고리즘
+* XGBoost(Extreme Gradient Boosting) Classifier
   * Boosting: ensemble의 원리로 작동
     - ensemble (지도학습) 머신러닝 모델: 여러 개의 decision tree를 결합하는 것이 더 좋은 결과, 성능을 낸다는 아이디어에서 착안
       <img src="screenshot/RandomForest.png" alt="model" style="zoom: 67%;" />
-    1) Bagging (Bootstrap Aggregating): 여러 개의 트리를 생성하는데, 각 트리 생성 시 training set에 대하여 임의로 n개의 데이터를 선택. 이때 데이터 중복 허용(with replacement)
-    ![결과](screenshot/RandomForest2.png)
-       - Bagging Features: Feature 선택 시 feature의 부분집합 활용. 일반적으로 M개의 feature가 있다면, 루트 M개의 feature를 선택. 이후 information gain이 높은 feature 선택 
-    2) Classify: 여러 트리 형성 후 도출된 결과 -> 빈도수가 가장 높은 예측값을 최종 결론으로 선택.<br>
-      ex. 8개의 트리를 형성하고 나온 예측값이 5개가 very good이라면, 예측값은 'very good'으로 분류
+  * 장점
+    - 속도 및 성능: 다른 ensemble classifier에 비해 속도가 빠르며 타 알고리즘에 비해 좋은 성능을 보임
+    - tuning parameters의 다양성: cross-validation, regularization, 결측치, tree parameters
   <br><br>
- 
- 
- 
- 2. 문제 해결 방법
- * data 전처리
-   * 기존의 변수 활용하여 새로운 변수 생성 (식수 인원 예측을 위해, 식사를 하는 인원 데이터 생성)
-   * categorical data(요일)에 대하여 LabelEncoder 적용
-   * 일자 데이터를 연도, 월, 일 데이터로 나누어 저장
- * modeling (모델 정의 및 모델 학습) -> RandomForestRegressor으로 모델 정의 및 train data에 대하여 모델 학습
-   * 유의미한 정보를 담고 있지 않은 컬럼(조식 메뉴, 중식메뉴, 석식메뉴)는 feature select시 제외: 특정 메뉴가 반복되는 등의 패턴을 보이지 않아 무의미함
- * test data 예측 -> RandomForest Regressor으로 test data predict
 
 -----------
 
