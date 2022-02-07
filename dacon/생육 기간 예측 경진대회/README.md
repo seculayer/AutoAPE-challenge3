@@ -13,7 +13,7 @@
 
 ### 결과화면
 
-![leaderboard](./img/img_leaderboard.png)
+![leaderboard](./img/leaderboard.png)
 
 ## 사용한 방법 & 알고리즘
 
@@ -25,6 +25,8 @@ Train 폴더에는 BC(청경채)폴더와 LT(적상추) 폴더가 있다.
 BC 폴더 안에 9개의 각각 다른 청경채의 날짜 별 이미지가 들어 있다. 대략 40일정도의 생육기간동안 촬영한 이미지가 있다.
 마찬가지로 LC 폴더 안에 10개의 각각 다른 적상추의 날짜 별로 찍힌 이미지가 있다. 
 총 train이미지는 753장이다. 같은 종류끼리 랜덤으로 2개의 이미지를 쌍으로 만들어 생육기간(time_delta)을 측정한 dataframe을 생성하여 trainset으로 사용한다.
+
+![train example](./img/example.PNG)
 
 Test 폴더는 BC폴더, LT폴더로 나누어져 있고, 각각의 폴더 안에 이미지가 있다. test_data.csv에 before file과 after file의 path가 적혀있고 총 3960쌍의 이미지가 있다.
 
