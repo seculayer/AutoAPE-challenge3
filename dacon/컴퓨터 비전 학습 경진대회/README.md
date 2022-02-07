@@ -27,7 +27,7 @@ train 이미지는 2048개 존재한다. 숫자 별 이미지 개수는 고르�
 
 Label은 총 0부터 9까지 총 10가지이다.
 
-![train_data_example](./img/train_data_example.png)
+![train_data_example](./img/train example.png)
 
 test.csv에는 id, letter, 28x28 사이즈의 이미지가 있다. test 이미지는 총 20480개 존재한다.
 
