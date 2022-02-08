@@ -34,8 +34,9 @@ test 폴더 안에는 794장의 test이미지가 있다.
 
 ### Model
 - Swin Transformer + classifier
-![model](./img/model.PNG)
 - 4-fold 사용
+
+![model](./img/model.PNG)
 
 
 
