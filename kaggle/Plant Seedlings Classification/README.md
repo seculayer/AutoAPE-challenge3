@@ -33,7 +33,8 @@ test 폴더 안에는 794장의 test이미지가 있다.
 - Train image augmentation : swin transformer 모델을 사용하기 위해 224x224로 resize
 
 ### Model
-- Swin Transformer
+- Swin Transformer + classifier
+![model](./img/model.PNG)
 - 4-fold 사용
 
 
