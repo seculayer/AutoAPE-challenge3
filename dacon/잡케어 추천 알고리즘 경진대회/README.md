@@ -23,7 +23,6 @@
 
 ### 알고리즘
 
-알고리즘
 * XGBoost(Extreme Gradient Boosting) Classifier
   * Boosting: ensemble의 원리로 작동
     - ensemble (지도학습) 머신러닝 모델: 여러 개의 decision tree를 결합하는 것이 더 좋은 결과, 성능을 낸다는 아이디어에서 착안
