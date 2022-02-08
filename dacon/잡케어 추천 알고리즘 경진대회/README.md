@@ -33,6 +33,9 @@
   * 장점
     - 속도 및 성능: 다른 ensemble classifier에 비해 속도가 빠르며 타 알고리즘에 비해 좋은 성능을 보임
     - tuning parameters의 다양성: cross-validation, regularization, 결측치, tree parameters
+  * 주의사항
+    - numerial 데이터에 대한 scale
+    - categorical 데이터에 대한 encoding
   <br><br>
 
 -----------
