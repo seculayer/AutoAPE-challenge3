@@ -31,7 +31,7 @@ Label은 총 6가지이다. (complex, frog_eye_leaf_spot, healthy, powdery_milde
 
 test_images 폴더 안에 총 3개의 샘플이미지가 있다. (실제 5000장의 test image가 있고, 제출하면 결과를 알 수 있다.)
 
-- Train image augmentation : 원본 이미지는 (4000, 2672) 사이즈지만, (512,512)로 resize된 이미지 데이터 사용하여 data_augmentation 진행
+- Train image augmentation : 원본 이미지는 (4000, 2672) 사이즈지만, (512,342)로 resize된 이미지 데이터 사용하여 data_augmentation 진행
 - Test Time Augmentation(TTA) : augmentation 진행한 이미지와 원본 이미지 둘 다 inference 후 평균한 결과 성능 향상
 
 ### Model
