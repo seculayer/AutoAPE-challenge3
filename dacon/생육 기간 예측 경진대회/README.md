@@ -30,7 +30,7 @@ BC 폴더 안에 9개의 각각 다른 청경채의 날짜 별 이미지가 들�
 
 ![train_example](./img/example.png)
 
-Test 폴더는 BC폴더, LT폴더로 나누어져 있고, 각각의 폴더 안에 이미지가 있다. test_data.csv에 before file과 after file의 path가 적혀있고 총 3960쌍의 이미지가 있다.
+Test 폴더는 BC폴더, LT폴더로 나누어져 있고, 각각의 폴더 안에 이미지가 있다. test_data.csv에 before file과 after file의 path가 적혀있고 총 3960쌍의 testset가 있다.
 
 - 이미지 데이터 용량이 너무 커서 이미지 로드하기 전에 224x224 사이즈로 resize하였다.
 - Train image augmentation: FiveCrop으로 한 이미지 당 96x96사이즈 5개의 이미지 생성 > top_left이미지만으로 훈련
