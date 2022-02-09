@@ -1,0 +1,12 @@
+version: 1
+id: 주차수요 예측 AI 경진대회
+score: 125.0751
+teams: 1630
+rank: 462
+date: 2022-01-03
+organization: SecuLayer
+team:
+  name: User1
+  members:
+    - id: User1
+      name: 허인
