@@ -1,0 +1,11 @@
+version: 2
+id: plant-pathology-2021-fgvc8
+score: 0.80698
+teams: 626
+rank: 176
+date: 2022-01-21
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
