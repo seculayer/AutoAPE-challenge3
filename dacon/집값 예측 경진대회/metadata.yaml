@@ -1,1 +1,12 @@
-
+version: 1
+id: 집값 예측 경진대회
+score: 0.18907
+teams: 343
+rank: 91
+date: 2022-01-27
+organization: SecuLayer
+team:
+  name: User1
+  members:
+    - id: User1
+      name: 허인
