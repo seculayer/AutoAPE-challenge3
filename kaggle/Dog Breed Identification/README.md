@@ -32,7 +32,7 @@ test 폴더 안에 총 10357장의 test 이미지가 있다.
 
 ### Model
 - NasnetLarge
-- Inception
+- InceptionResnet
 - weight decay
 - ensemble
 
