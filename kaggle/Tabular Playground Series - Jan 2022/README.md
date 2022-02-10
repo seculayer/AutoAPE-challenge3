@@ -51,7 +51,7 @@
 
 ### 코드
 
-['./Tabular Playground Series - Jan 2022.ipynb](https://github.com/gjdls01/seculayer_challenge3/blob/main/kaggle/Tabular%20Playground%20Series%20-%20Dec%202021/Tabular%20Playground%20Series%20-%20Dec%202021.ipynb)
+['./Tabular Playground Series - Jan 2022.ipynb](https://github.com/gjdls01/seculayer_challenge3/blob/main/kaggle/Tabular%20Playground%20Series%20-%20Jan%202022/Tabular%20Playground%20Series%20-%20Jan%202022.ipynb)
 
 -----------
 
