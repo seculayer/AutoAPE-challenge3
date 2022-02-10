@@ -1,0 +1,10 @@
+version: 2
+id: Transfer Learning on Stack Exchange Tags
+score: 0.01330
+teams: 380
+rank: 326
+date: 2022-02-10
+organization: SecuLayer
+author:
+  id: Octo
+  name: 문진웅
