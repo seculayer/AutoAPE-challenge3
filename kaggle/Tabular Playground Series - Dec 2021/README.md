@@ -26,8 +26,8 @@
 DecisionTree Classifier
 * 정의
   * 지도 학습 머신러닝 알고리즘
-  <img src="screenshot/decisionTree.png" alt="model" style="zoom: 67%;" />
   * 요소: node, edge, root, leave
+  <img src="screenshot/decisionTree.png" alt="model" style="zoom: 67%;" />
 * 장점
   * 시각화
     - 모델 시각화: 알고리즘의 decision을 한 눈에 살필 수 있음
@@ -44,7 +44,7 @@ DecisionTree Classifier
 
 ### 코드
 
-['./Tabular Playground Series - Dec 2021.ipynb](https://github.com/gjdls01/seculayer_challenge3/blob/main/dacon/KNOW%EA%B8%B0%EB%B0%98%20%EC%A7%81%EC%97%85%20%EC%B6%94%EC%B2%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C/KNOW%EA%B8%B0%EB%B0%98%20%EC%A7%81%EC%97%85%20%EC%B6%94%EC%B2%9C%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C.ipynb)
+['./Tabular Playground Series - Dec 2021.ipynb](https://github.com/gjdls01/seculayer_challenge3/blob/main/kaggle/Tabular%20Playground%20Series%20-%20Dec%202021/Tabular%20Playground%20Series%20-%20Dec%202021.ipynb)
 
 -----------
 
