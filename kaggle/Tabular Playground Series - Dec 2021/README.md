@@ -52,5 +52,5 @@ DecisionTree Classifier
 
 [DeicisionTree Classifier - 정의](https://www.analyticsvidhya.com/blog/2021/04/beginners-guide-to-decision-tree-classification-using-python/)<br>
 [DeicisionTree Classifier - 장점](https://towardsdatascience.com/decision-tree-classifier-explained-in-real-life-picking-a-vacation-destination-6226b2b60575#:~:text=Decision%20Tree%20Classifier%20explained%20in%20real-life%3A%20picking%20a,make%20decisions%2C%20similarly%20to%20how%20humans%20make%20decisions.)<br>
-[[DeicisionTree Classifier - 파라미터](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+[DeicisionTree Classifier - 파라미터](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 
