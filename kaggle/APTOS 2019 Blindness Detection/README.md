@@ -38,6 +38,8 @@ test_images 폴더는 1928장의 망막 이미지로 구성되어 있다.
 
 
 ## 코드
+[APTOS_2019_Blindness_Detection_train.ipynb](./APTOS_2019_Blindness_Detection_train.ipynb)
+
 [APTOS_2019_Blindness_Detection_inf.ipynb](./APTOS_2019_Blindness_Detection_inf.ipynb)
 
 ## 참고 자료
