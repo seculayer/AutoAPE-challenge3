@@ -21,7 +21,10 @@
 
 ### DATA
 
-train image는 50000장 있다. dirty_mnist_2nd_answer.csv에 train이미지에 대한 정답이 존재한다. 이미지에 알파벳이 존재할 경우 1, 존재하지 않을 경우 0이다.
+train image는 50000장 있다. dirty_mnist_2nd_answer.csv에 train이미지에 대한 정답이 존재한다. 
+
+이미지에 알파벳이 존재할 경우 1, 존재하지 않을 경우 0이다.
+
 한 이미지에 10~15개의 알파벳이 존재하므로 multi-label classification이다.
 
 Label은 총 26가지이다. (알파벳 a-Z)
