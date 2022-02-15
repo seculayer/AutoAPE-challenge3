@@ -37,7 +37,7 @@ test image는 총 5000장이다.
 
 ### Model
 - Mobilenet + classifier
-![model](./img/model.)
+![model_img](./img/model_img.PNG)
 - K-fold
 
 
