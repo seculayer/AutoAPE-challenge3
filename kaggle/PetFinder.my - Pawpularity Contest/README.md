@@ -38,7 +38,9 @@ test폴더 안에는 총 8개의 샘플이미지가 있다. (실제는 6800장�
 
 
 ## 코드
+[petfinder_my_pawpularity_contest_train.ipynb](./petfinder_my_pawpularity_contest_train.ipynb)
 
+[petfinder_my_pawpularity_contest_inf.ipynb](./petfinder_my_pawpularity_contest_inf.ipynb)
 
 
 ## 참고 자료
