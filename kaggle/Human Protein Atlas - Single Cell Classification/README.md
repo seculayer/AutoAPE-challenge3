@@ -39,6 +39,8 @@ Label은 총 19가지이다.
 
 
 ## 코드
+[human_protein_atlas_single_cell_classification_trn.ipynb](./human_protein_atlas_single_cell_classification_trn.ipynb)
 
+[human_protein_atlas_single_cell_classification_inf.ipynb](./human_protein_atlas_single_cell_classification_inf.ipynb)
 
 ## 참고 자료
