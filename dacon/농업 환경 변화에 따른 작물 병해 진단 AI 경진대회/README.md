@@ -38,4 +38,8 @@ train dataset은 총 5767장이다. train dataset마다 이미지 파일(png), �
 
 ## 코드
 
+[농업환경변화에_따른_작물병해진단_AI경진대회_train.ipynb](./농업환경변화에_따른_작물병해진단_AI경진대회_train.ipynb)
+
+[농업환경변화에_따른_작물병해진단_AI경진대회_inf.ipynb](./농업환경변화에_따른_작물병해진단_AI경진대회_inf.ipynb)
+
 ## 참고 자료
