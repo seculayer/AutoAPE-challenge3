@@ -1,0 +1,11 @@
+version: 1
+id: dog-breed-identification
+score: 0.17772
+teams: 1280
+rank: 191
+date: 2022-02-08
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
