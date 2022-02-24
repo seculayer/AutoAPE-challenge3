@@ -1,0 +1,11 @@
+version: 1
+id: hpa-single-cell-image-classification
+score: 0.27438
+teams: 3537
+rank: 3325
+date: 2022-02-21
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
