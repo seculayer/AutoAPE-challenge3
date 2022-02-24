@@ -1,0 +1,11 @@
+version: 1
+id: petfinder-pawpularity-score
+score: 21.25625
+teams: 3537
+rank: 3325
+date: 2022-02-16
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
