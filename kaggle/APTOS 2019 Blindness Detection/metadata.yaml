@@ -1,0 +1,11 @@
+version: 1
+id: aptos2019-blindness-detection
+score: 0.876317
+teams: 2928
+rank: 1850
+date: 2022-02-11
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
