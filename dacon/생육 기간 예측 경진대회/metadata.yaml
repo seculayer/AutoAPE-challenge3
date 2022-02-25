@@ -1,0 +1,11 @@
+version: 1
+id: 생육 기간 예측 경진대회
+score: 6.5855667601
+teams: 510
+rank: 55
+date: 2022-02-07
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
