@@ -1,0 +1,11 @@
+version: 1
+id: 농업 환경 변화에 따른 작물 병해 진단 AI 경진대회
+score: 0.9279
+teams: 1491
+rank: 139
+date: 2022-02-21
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주
