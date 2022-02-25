@@ -1,0 +1,11 @@
+version: 1
+id: 컴퓨터 비전 학습 경진대회
+score: 0.8696488459
+teams: 1256
+rank: 117
+date: 2022-02-07
+organization: SecuLayer
+team:
+  members:
+    - id: ori5r2
+      name: 노민주

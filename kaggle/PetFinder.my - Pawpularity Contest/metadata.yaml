@@ -1,9 +1,9 @@
 version: 1
-id: plant-pathology-2021-fgvc8
-score: 0.80698
-teams: 626
-rank: 176
-date: 2022-01-21
+id: petfinder-pawpularity-score
+score: 21.25625
+teams: 3537
+rank: 3325
+date: 2022-02-16
 organization: SecuLayer
 team:
   members:

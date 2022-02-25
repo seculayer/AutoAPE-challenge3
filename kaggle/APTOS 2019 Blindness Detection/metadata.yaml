@@ -1,9 +1,9 @@
 version: 1
-id: plant-pathology-2021-fgvc8
-score: 0.80698
-teams: 626
-rank: 176
-date: 2022-01-21
+id: aptos2019-blindness-detection
+score: 0.876317
+teams: 2928
+rank: 1850
+date: 2022-02-11
 organization: SecuLayer
 team:
   members:

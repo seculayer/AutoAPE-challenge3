@@ -1,9 +1,9 @@
 version: 1
-id: plant-pathology-2021-fgvc8
-score: 0.80698
-teams: 626
-rank: 176
-date: 2022-01-21
+id: plant-seedlings-classification
+score: 0.98740
+teams: 833
+rank: 30
+date: 2022-02-08
 organization: SecuLayer
 team:
   members:
