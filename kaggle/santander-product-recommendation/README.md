@@ -9,8 +9,7 @@
 순위 및 비율 : 610(34.28%)      
 
 ## 결과 화면
-![score_santander_product_recommendation](https://user-images.githubusercontent.com/63771624/176130006-2f5c970c-532c-4590-b1c5-f33330009fd4.PNG)
-
+![score_santander_product_recommendation](./img/score_santander_product_recommendation.png)
 
 ## 문제 설명, 해결 방법
 ### 목표
