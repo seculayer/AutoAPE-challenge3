@@ -22,4 +22,4 @@
 4. Xgboost 모델 사용
 
 ## 코드
-[santander-product-recommendation](kaggle/santander-product-recommendation/santander-product-recommendation.ipynb)
+[santander-product-recommendation](https://github.com/Umhyunbin/AutoAPE-challenge3/blob/ed2c7e5e3e058c4a5f970508709741713d7d414e/kaggle/santander-product-recommendation/santander-product-recommendation.ipynb)
