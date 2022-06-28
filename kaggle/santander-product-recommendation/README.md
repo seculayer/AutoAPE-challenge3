@@ -1,12 +1,12 @@
 # santander-product-recommendation
 
 ## 결과 요약
-도전기관 : 시큐레이어
-도전자 : 엄현빈
-최종스코어 : 0.02748
-제출일자 : 2022-03-12
-총 참여 팀 수 : 1779
-순위 및 비율 : 610(34.28%)
+도전기관 : 시큐레이어    
+도전자 : 엄현빈     
+최종스코어 : 0.02748     
+제출일자 : 2022-03-12      
+총 참여 팀 수 : 1779      
+순위 및 비율 : 610(34.28%)      
 
 ## 결과 화면
 ![score_santander_product_recommendation](https://user-images.githubusercontent.com/63771624/176130006-2f5c970c-532c-4590-b1c5-f33330009fd4.PNG)
