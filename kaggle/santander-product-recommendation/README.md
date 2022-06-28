@@ -22,4 +22,4 @@
 4. Xgboost 모델 사용
 
 ## 코드
-
+[santander-product-recommendation](kaggle/santander-product-recommendation/santander-product-recommendation.ipynb)
