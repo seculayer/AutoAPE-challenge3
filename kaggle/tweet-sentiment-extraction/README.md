@@ -17,7 +17,7 @@
 
 ### 문제 해결 방법
 1. 결측값 처리 -> 텍스트가 없는 경우 감정을 판단할 문구가 없어 중립으로 처리한다고 판단 -> 결측값을 삭제하지 않음
-2. text마다 RoBERTa 모델의 format(%3Cs%3E A %3C%2Fs%3E%3C%2Fs%3E B %3C%2Fs%3E)을 맞추기 위해 처리
+2. text마다 RoBERTa 모델의 format(-%3Cs%3E-A%3C%2Fs%3E%3C%2Fs%3EB%3C%2Fs%3E)을 맞추기 위해 처리
 3. 긍정, 부정 / 중립 label이 다른 양상을 보임 -> StratifiedKfold로 교차검증 진행
 4. RoBERTa 모델 사용. 정답 구문의 start, end index / 예측한 start, end index의 Jaccard Score를 산출
 
