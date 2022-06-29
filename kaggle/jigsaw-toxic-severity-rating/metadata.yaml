@@ -1,0 +1,12 @@
+version: 1
+id: jigsaw-toxic-severity-rating
+score: 0.79621
+teams: 2301
+rank: 208
+date: 2022-04-25
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈
