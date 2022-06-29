@@ -22,5 +22,5 @@
 4. RoBERTa 모델 사용. 정답 구문의 start, end index / 예측한 start, end index의 Jaccard Score를 산출
 
 ## 코드
-[tweet-sentiment-extraction]()
+[tweet-sentiment-extraction](https://github.com/Umhyunbin/AutoAPE-challenge3/blob/2668e3b90ad94acc6127d30c78aabcda77981d23/kaggle/tweet-sentiment-extraction/tweet-sentiment-extraction.ipynb)
 
