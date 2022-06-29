@@ -1,0 +1,12 @@
+version: 1
+id: allstate-purchase-prediction-challenge
+score: 0.53584
+teams: 1566
+rank: 19
+date: 2022-04-18
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈
