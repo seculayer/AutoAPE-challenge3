@@ -1,0 +1,12 @@
+version: 1
+id: quora-question-pairs
+score: 0.29641
+teams: 3295
+rank: 913
+date: 2022-05-03
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈
