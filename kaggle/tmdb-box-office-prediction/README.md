@@ -19,7 +19,7 @@
 1. 이름이 같은 영화(원작 영화 리메이크 / 다른 영화) -> 모두 다른 영화로 처리
 2. JSON 형식의 column -> 내용을 추출하여 column으로 활용
 3. 외부 데이터 추가 가능 -> feature 추가(평점, 평점 인원 수 등) / row 추가
-4. Xgboost, Lightgbm, Catboost Ensemble 진행 -> 최종적으로 Lightgbm + Catboost 
+4. Xgboost, Lightgbm, Catboost Ensemble 진행 -> 최종적으로 Lightgbm + Catboost 사용  
 
 ## 코드
 [tmdb-box-office-prediction](https://github.com/Umhyunbin/AutoAPE-challenge3/blob/4e25c9ae18442844d4e87a7dea64b349cff35166/kaggle/tmdb-box-office-prediction/tmdb-box-office-prediction.ipynb)
