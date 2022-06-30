@@ -1,0 +1,12 @@
+version: 1
+id: santander-product-recommendation
+score: 0.02748
+teams: 1779
+rank: 610
+date: 2022-03-12
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈

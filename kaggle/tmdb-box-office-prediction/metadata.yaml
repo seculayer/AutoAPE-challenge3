@@ -1,0 +1,12 @@
+version: 1
+id: tmdb-box-office-prediction
+score: 1.71029
+teams: 1395
+rank: 154
+date: 2022-05-19
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈
