@@ -21,4 +21,3 @@ low- and high-cardinality ordinal features
 - ordial feature 는 OridnaryEncoding 을 통하여 가공함 
 - Logistic Regression / lightGBM을 사용하여 모델링함 
 - Baysian optimization 을 이용하여 parameter tuning 함 
-
