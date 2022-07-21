@@ -1,0 +1,12 @@
+version: 1
+id: tweet-sentiment-extraction
+score: 0.71705
+teams: 2225
+rank: 159
+date: 2022-03-22
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈
