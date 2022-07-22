@@ -1,0 +1,11 @@
+id: ventilator-pressure-prediction
+tittle: Google Brain - Ventilator Pressure Prediction
+score: 0.1393
+team: 2605
+rank: 755
+date: 2022-05-27
+organization: Hanyang University
+team:
+  members:
+    - id: 10169428
+      name: 장이완
