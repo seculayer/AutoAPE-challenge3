@@ -48,4 +48,4 @@
 
 ### 참고자료
 
-[XGBoost Classifier](https://www.datacamp.com/community/tutorials/xgboost-in-python)
+![XGBoost Classifier](https://www.datacamp.com/community/tutorials/xgboost-in-python)
