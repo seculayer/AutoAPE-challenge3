@@ -1,0 +1,14 @@
+version: 1
+id: tabular-playground-series-aug-2022
+score: 0.591
+teams: 1569
+rank: 100
+date: 2022-08-30
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: kimsuhyeok
+      name: 김수혁
+    - id: sunghoonkang
+      name: 강성훈
