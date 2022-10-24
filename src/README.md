@@ -3,16 +3,15 @@
 ## 의존성
 
 - Python
-- [Poetry](https://python-poetry.org/)
-- Python package
-  - pyyaml
-  - pandas
+- [Poetry](https://python-poetry.org/): Python 패키지 관리자
 
 ### Poetry
 
 Poetry를 설치했다면, 프로젝트 경로에서 `poetry install`을 실행하여 의존성을 설치합니다.
 
 ## Metadata를 CSV로 변환하기
+
+콘솔에 `poetry run kaggle` 명령어를 실행합니다.
 
 ```console
 $ poetry run kaggle
@@ -45,4 +44,4 @@ $ poetry run kaggle
 25     womens-machine-learning-competition-2019  Google Cloud & NCAA® ML Competition 2019-Women's  2022-03-14    70  Hanyang University    497
 ```
 
-결과는 파일과 Console 모두에 출력합니다. 결과 파일은 `PROJECT/outputs` 폴더 안에 `대회.csv` 이름으로 저장됩니다.
+결과는 파일과 Console 모두에 출력합니다. 결과 파일은 `PROJECT_ROOT/outputs` 폴더 안에 `대회.csv` 이름으로 저장됩니다.
