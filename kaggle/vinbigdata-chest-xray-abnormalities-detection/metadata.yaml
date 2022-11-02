@@ -1,0 +1,12 @@
+version: 2
+id: vinbigdata-chest-xray-abnormalities-detection
+score: 0.246
+teams: 1275
+rank: 107
+date: 2022-08-30
+organization: SecuLayer
+team:
+  name: parkheesoogood
+  members:
+    - id: parkheesoogood
+      name: 박희수
