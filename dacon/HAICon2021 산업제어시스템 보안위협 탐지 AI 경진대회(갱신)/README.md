@@ -31,7 +31,3 @@
 [소스 코드](lstm_seculayer.ipynb)
 # 참고자료
 ---
-
-```python
-
-```
