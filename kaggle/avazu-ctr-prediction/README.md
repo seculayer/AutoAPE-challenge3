@@ -1,4 +1,4 @@
-# Africa Soil Property Prediction Challenge
+# Click-Through Rate Prediction
 ## 결과
 ### 요약정보
 - 도전기관: 한양대학교
