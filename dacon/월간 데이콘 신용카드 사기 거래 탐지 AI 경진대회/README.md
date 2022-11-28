@@ -12,7 +12,8 @@
 
 # 결과 화면
 ---
-![final_score](./img/score.JPG)
+![final_score](./img/score.JPG)  
+
 ![final_rank](./img/rank_JPG)
 
 # 사용한 방법 & 알고리즘
