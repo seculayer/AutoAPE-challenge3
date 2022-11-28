@@ -22,6 +22,8 @@
 
 # 코드
 ---
+[jupyter notebook code](TabularPlaygroundSeries_Sep2022-final.ipynb)
+
 # 참고자료
 ---
 ##### https://www.kaggle.com/code/cabaxiom/tps-sep-22-eda-and-linear-regression-baseline
