@@ -22,7 +22,7 @@
 
 # 코드
 ---
-(Credit card fraud detection_monthly Dacon-final.ipynb)
+[code](Credit card fraud detection_monthly Dacon-final.ipynb)
 
 
 # 참고자료
