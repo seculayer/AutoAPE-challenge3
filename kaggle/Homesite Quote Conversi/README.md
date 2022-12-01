@@ -23,4 +23,5 @@
 
 ## 참고 자료
 
-- 
+- AI_Competitions_2 Homesite Quote Conversion
+[링크](https://github.com/seculayer/AutoAPE-challenge2/tree/main/kaggle/Homesite%20Quote%20Conversion)
