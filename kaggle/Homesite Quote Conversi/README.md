@@ -13,7 +13,8 @@
 
 ### 결과화면
 
-![leaderboard](./img/leaderboard.png)
+![점수](./img/my_score.png)
+![등수](./img/rank.png)
 
 
 ## 코드
