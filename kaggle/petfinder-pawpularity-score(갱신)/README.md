@@ -32,12 +32,12 @@
   * RMSE를 기반으로 K-fold 교차검증방식을 통해 최적의 BIN 추출
   * 색상(hue), 채도(saturation), 명도(brightness) 조정을 통한 Data Augmentation
 * 모델링
-  * 이진분류 손실함수 BCEWithLogitsLoss 사용 
+  * 이진분류 손실함수 BCEWithLogitsLoss 사용
   * swin-transformer model (swin_large_patch4_window7_224) 사용
 
 # 코드
 ---
-[`./petfinder.ipynb`](./petfinder.ipynb)
+[`./pawpularity.ipynb`](./pawpularity.ipynb)
 
 # 참고자료
 ---
