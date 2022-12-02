@@ -34,6 +34,6 @@ Google에서 제공하는 TPU를 사용하여 예측한다.
 앞서 생성한 배포 전략에는 context manager, strategy.scope가 포함되어 있습니다. 이 컨텍스트 관리자는 TensorFlow에 8개의 TPU 코어 간에 학습 작업을 나누는 방법을 알려줍니다. TensorFlow를 TPU와 함께 사용할 때 전략에서 모델을 정의하는 것이 중요한다. 
 
 ## 코드
-[](./test6 )
+[test6.ipynb](./test6.ipynb  )
 
 ## 참고 자료
