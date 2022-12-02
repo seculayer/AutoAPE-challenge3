@@ -25,7 +25,7 @@
 train데이터 : 250,302
 
 target은 0,1로 구분되는 이진분류 문제이다
-![train_example](./img/train_example.PNG)
+![train_example](./img/train_example.png)
 
 test데이터 : 19750,301
 
