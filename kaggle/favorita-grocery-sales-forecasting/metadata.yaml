@@ -1,0 +1,12 @@
+version: 2
+id: favorita-grocery-sales-forecasting
+score: 0.519
+teams: 1674
+rank: 56
+date: 2022-07-26
+organization: SecuLayer
+team:
+  name: twankim08
+  members:
+  - id: twankim08
+    name: 김택완

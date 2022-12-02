@@ -41,8 +41,8 @@ test 폴더 안에는 794장의 test이미지가 있다.
 
 
 ## 코드
-[plant_seedlings_classification_inf](./plant_seedlings_classification_inf)
+[plant_seedlings_classification_inf](./plant_seedlings_classification_inf.ipynb)
 
-[plant_seedlings_classification_train](./plant_seedlings_classification_train)
+[plant_seedlings_classification_train](./plant_seedlings_classification_train.ipynb)
 
 ## 참고 자료

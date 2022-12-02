@@ -1,0 +1,12 @@
+version: 1
+id: commonlitreadabilityprize
+score: 0.473
+teams: 3638
+rank: 1415
+date: 2022-06-02
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈

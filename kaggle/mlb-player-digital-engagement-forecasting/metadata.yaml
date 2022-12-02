@@ -1,0 +1,12 @@
+version: 1
+id: mlb-player-digital-engagement-forecasting
+score: 1.3878
+teams: 852
+rank: 92
+date: 2022-06-09
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈

@@ -1,0 +1,12 @@
+version: 2
+id: 병변 검출 AI 경진대회
+score: 0.580
+teams: 250
+rank: 78
+date: 2022-08-30
+organization: SecuLayer
+team:
+  name: parkheesoogood
+  members:
+    - id: parkheesoogood
+      name: 박희수

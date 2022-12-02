@@ -1,0 +1,12 @@
+version: 2
+id: mercedes-benz-greener-manufacturing
+score: 0.55279
+teams: 3823
+rank: 77
+date: 2022-02-04
+organization: Hanyang University
+team:
+  name: junhang
+  members:
+    - id: junhang
+      name: 안준항

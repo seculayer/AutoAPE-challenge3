@@ -1,0 +1,12 @@
+version: 1
+id: new-york-city-taxi-fare-prediction
+score: 2.94685
+teams: 1483
+rank: 163
+date: 2022-06-27
+organization: SecuLayer
+team:
+  name: hyunbini
+  members:
+    - id: hyunbini
+      name: 엄현빈

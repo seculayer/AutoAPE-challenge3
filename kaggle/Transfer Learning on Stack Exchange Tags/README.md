@@ -25,9 +25,9 @@ train데이터 : 67,721개 텍스트 데이터
 bio, cooking, crypto, diy, robotics, travel의 대분류 데이터에서 주제가 다양하게 나옴
 content는 html 태그가 있어 제거
 category는 32093개 데이터로 구분되는 분류 문제이다
-![train_example](./img/train_example.PNG)
+![train_example](./img/train_example.png)
 특정 카테고리에 몰려있는 데이터
-![train_example2](./img/train_example2.PNG)
+![train_example2](./img/train_example2.png)
 
 test데이터 : 81,926개 텍스트 데이터
 

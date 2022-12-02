@@ -24,9 +24,9 @@
 
 train데이터 : 320,000개 이미지 데이터
 category는 32093개 데이터로 구분되는 분류 문제이다
-![train_example](./img/train_example.PNG)
+![train_example](./img/train_example.png)
 특정 카테고리에 몰려있는 데이터
-![train_example2](./img/train_example2.PNG)
+![train_example2](./img/train_example2.png)
 test데이터 : 138,291개 이미지 데이터
 
 ###
