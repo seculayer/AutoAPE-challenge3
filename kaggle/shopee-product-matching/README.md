@@ -13,7 +13,7 @@
 
 ### 결과화면
 
-![](./img/1.PNG)
+![1.png](./img/1.png)
 
 ## 사용한 방법 & 알고리즘
 
@@ -27,7 +27,7 @@ Arcface training 모델을 사용하여 그림과 텍스트를 인코딩한 다�
 
 ## 코드
 
-[](./shoppe.ipynb)
+[code](./shoppe.ipynb)
 
 ## 참고 자료
 

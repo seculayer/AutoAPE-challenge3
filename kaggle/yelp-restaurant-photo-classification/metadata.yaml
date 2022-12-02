@@ -1,0 +1,12 @@
+version: 2
+id: yelp-restaurant-photo-classification
+score: 0.681
+teams: 355
+rank: 165
+date: 2022-08-30
+organization: SecuLayer
+team:
+  name: kimsuhyeok
+  members:
+    - id: kimsuhyeok
+      name: 김수혁
