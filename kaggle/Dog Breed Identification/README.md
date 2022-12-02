@@ -1,42 +1,39 @@
-# Dog Breed Identification
+# Petals to the Metal - Flower Classification on TPU
 
 ## 결과
 
 ### 요약정보
 
-- 도전기관 : 시큐레이어
-- 도전자 : 노민주
-- 최종스코어 : 0.17772
-- 제출일자 : 2022-02-08
-- 총 참여 팀 수 : 1280
-- 순위 및 비율 : 191(14.92%)
+- 도전기관 : 한양대학교
+- 도전자 : 탄텐보
+- 최종스코어 : 0.94962
+- 제출일자 : 2022-02-14
+- 총 참여 팀 수 : 162
+- 순위 및 비율 : 36(22.22%)
 
 ### 결과화면
 
-![leaderboard](./img/leaderboard.png)
+![66b1fab6cd610c177781dee8d76488d](./img/66b1fab6cd610c177781dee8d76488d.png)
 
 ## 사용한 방법 & 알고리즘
 
-이미지 속 강아지의 품종을 분류하는 대회이다.
+Google에서 제공하는 TPU를 사용하여 예측한다.
 
 ### DATA
+5,000종 이상의 포유류, 10,000종의 새, 30,000종의 어류, 그리고 놀랍게도 400,000종 이상의 꽃이 있습니다.
 
-train 폴더 안에 10222장의 이미지가 있다.
+이 대회에서 귀하는 이미지 데이터 세트에서 꽃 유형을 식별하는 기계 학습 모델을 구축해야 합니다.
 
-label.csv에 각 train 이미지에 대한 강아지 품종이 적혀있다. 강아지 품종은 총 120가지이다. 품종별 이미지 개수는 다르다.
-![train_example](./img/train_example.PNG)
 
-test 폴더 안에 총 10357장의 test 이미지가 있다.
-
-- Train image augmentation : 331X331로 RESIZE
 
 ### Model
-- NasnetLarge
-- InceptionResnet
-- weight decay
-- ensemble
+이제 이미지 분류를 위한 신경망을 만들 준비가 되었습니다. 전이 학습이라고 하는 것을 사용할 것이다. 전이 학습을 사용하면 사전 훈련된 모델의 일부를 재사용하여 새 데이터 세트에서 유리한 출발을 할 수 있다.
+
+이 튜토리얼에서는 ImageNet에서 사전 학습된 VGG16이라는 모델을 사용하겠습니다.) 나중에 Keras에 포함된 다른 모델을 실험해 볼 수 있다.(Xception도 나쁘지 않은 선택이다.)
+
+앞서 생성한 배포 전략에는 context manager, strategy.scope가 포함되어 있습니다. 이 컨텍스트 관리자는 TensorFlow에 8개의 TPU 코어 간에 학습 작업을 나누는 방법을 알려줍니다. TensorFlow를 TPU와 함께 사용할 때 전략에서 모델을 정의하는 것이 중요한다. 
 
 ## 코드
-[Dog_Breed_Identification.ipynb](./Dog_Breed_Identification.ipynb)
+[](./test6 )
 
 ## 참고 자료
