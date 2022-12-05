@@ -25,7 +25,7 @@
   * train data는 31390개의 단백질서열과 이에 대응하는 산(pH), 온도(tm), 데이터소스(data_source)가 존재
   * test data는 train data와 같은 형식으로 2413개의 데이터 존재
   * (Feature Extraction 을 통한 단백질서열 3차원 도식화)
-  ![ex_screenshot2](./IMG/Data.png)
+  * ![ex_screenshot](./IMG/DATA.png)
 
 
 ### 해결방법
