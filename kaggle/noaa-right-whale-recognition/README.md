@@ -1,4 +1,4 @@
-# rfcx-species-audio-detection
+# noaa-right-whale-recognition
 
 ## 결과
 
