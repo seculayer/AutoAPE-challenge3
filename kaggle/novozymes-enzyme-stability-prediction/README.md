@@ -25,12 +25,12 @@
   * train data는 31390개의 단백질서열과 이에 대응하는 산(pH), 온도(tm), 데이터소스(data_source)가 존재
   * test data는 train data와 같은 형식으로 2413개의 데이터 존재
   * (Feature Extraction 을 통한 단백질서열 3차원 도식화)
-  * ![ex_screenshot2](./IMG/Data.png)
+  ![ex_screenshot2](./IMG/Data.png)
 
 
 ### 해결방법
 * Feature
-  * 생명공학에서 사용되는 도구를 통해 효소변이체의 열안정성 판단에 사용되는 피처 추출 
+  * 생명공학에서 사용되는 도구를 통해 효소변이체의 열안정성 판단에 사용되는 피처 추출
     * 단백질서열의 고유 WILDTYPE / Mutation / dG, 적정 pH / Tm 테이블
     * PDB 단백질 정보 파일
     * 아미노산 정규표
@@ -39,7 +39,7 @@
   * PCA를 통한 피처 차원 축소
 * Modeling
   * XGBoost 사용
-  
+
 
 # 코드
 ---
