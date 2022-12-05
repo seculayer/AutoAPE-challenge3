@@ -1,0 +1,12 @@
+version: 2
+id: quora-insincere-questions-classification
+score: 0.708
+teams: 4037
+rank: 16
+date: 2022-11-30
+organization: SecuLayer
+team:
+  name: powerwook
+  members:
+    - id: powerwook
+      name: 김현욱
