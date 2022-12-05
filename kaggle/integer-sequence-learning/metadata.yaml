@@ -1,0 +1,12 @@
+version: 2
+id: integer-sequence-learning
+score: 0.176
+teams: 284
+rank: 53
+date: 2022-11-29
+organization: SecuLayer
+team:
+  name: powerwook
+  members:
+    - id: powerwook
+      name: 김현욱
