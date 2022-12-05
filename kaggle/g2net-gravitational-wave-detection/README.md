@@ -1,4 +1,4 @@
-# rfcx-species-audio-detection
+# g2net-gravitational-wave-detection
 
 ## 결과
 
