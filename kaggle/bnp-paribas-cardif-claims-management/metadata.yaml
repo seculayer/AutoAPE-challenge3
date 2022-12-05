@@ -1,0 +1,12 @@
+version: 2
+id: bnp-paribas-cardif-claims-management
+score: 0.430
+teams: 2920
+rank: 12
+date: 2022-11-28
+organization: SecuLayer
+team:
+  name: powerwook
+  members:
+    - id: powerwook
+      name: 김현욱
