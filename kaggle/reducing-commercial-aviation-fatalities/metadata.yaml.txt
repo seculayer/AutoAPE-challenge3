@@ -1,0 +1,12 @@
+version: 2
+id: reducing-commercial-aviation-fatalities
+score: -0.31724
+teams: 179
+rank: 6
+date: 2022-11-02
+organization: SecuLayer
+team:
+  name: SANGMINNNN
+  members:
+    - id: SANGMINNNN
+      name: 이상민
