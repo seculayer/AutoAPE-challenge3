@@ -12,6 +12,8 @@
 - 순위 및 비율 : 325(20.32%)
 
 ### 결과화면
+![leaderboard](./img/score.PNG)
+![leaderboard](./img/rank.PNG)
 
 
 ## 문제 설명, 해결 방법
