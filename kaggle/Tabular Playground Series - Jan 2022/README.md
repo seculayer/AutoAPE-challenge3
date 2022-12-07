@@ -17,7 +17,7 @@
 ![등수](./img/Score.png)
 
 ## 알고리즘
--CatBoost
+- CatBoost
 
 ## 코드
 
