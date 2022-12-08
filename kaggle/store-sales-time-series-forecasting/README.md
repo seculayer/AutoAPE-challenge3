@@ -13,11 +13,11 @@
 
 ### 결과화면
 
-![title](./img/title.png)
+![title](./img/title.PNG)
 
-![score](./img/score.png)
+![score](./img/score.PNG)
 
-![leaderboard](./img/leaderboard.png)
+![leaderboard](./img/leaderboard.PNG)
 
 ## 사용한 방법 & 알고리즘
 
