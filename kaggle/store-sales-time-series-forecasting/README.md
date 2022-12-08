@@ -15,7 +15,7 @@
 
 ![title](./img/title.PNG)
 
-![score](./img/score.PNg)
+![score](./img/score.PNG)
 
 ![leaderboard](./img/leaderboard.PNG)
 
