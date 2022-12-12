@@ -1,3 +1,4 @@
+version: 2
 id: google-quest-challenge
 title: Google QUEST Q&A Labeling
 score: 0.35999
@@ -5,6 +6,8 @@ team: 1572
 rank: 581
 date: 2022-12-07
 organization: SecuLayer
-author:
-  id: JunHyuck.Kim
-  name: 김준혁
+team:
+  name: JunHyuck-Kim
+  members:
+    - id: JunHyuck-Kim
+      name: 김준혁
