@@ -1,0 +1,12 @@
+version: 1
+id: spooky-author-identification
+score:  0.30570
+teams: 1241
+rank: 205
+date: 2022-11-29
+organization: Hanyang University
+team:
+  name: chihyunli
+  members:
+    - id: chihyunli
+      name: 이자윤

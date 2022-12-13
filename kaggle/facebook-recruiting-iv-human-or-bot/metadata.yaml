@@ -1,0 +1,12 @@
+version: 2
+id: facebook-v-predicting-check-ins
+score: 0.918
+teams: 983
+rank: 255
+date: 2022-12-01
+organization: SecuLayer
+team:
+  name: Seon-Bi-MOON
+  members:
+    - id: Seon-Bi-MOON
+      name: 문일주
