@@ -1,0 +1,12 @@
+version: 2
+id: football-match-probability-prediction
+score: 0.99773
+teams: 382
+rank: 70
+date: 2022-12-20
+organization: SecuLayer
+team:
+  name: kangmin97
+  members:
+    - id: kangmin97
+      name: 이강민
