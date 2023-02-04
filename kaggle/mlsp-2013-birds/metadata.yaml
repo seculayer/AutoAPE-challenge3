@@ -1,0 +1,12 @@
+version: 1
+id: mlsp-2013-birds
+score:  0.91973
+teams: 79
+rank: 14
+date: 2023-02-04
+organization: Hanyang University
+team:
+  name: chihyunli
+  members:
+    - id: chihyunli
+      name: 이자윤
